@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>6.0</ProjectVersion>
+    <ToolchainName>com.Atmel.AVRGCC8</ToolchainName>
+    <ProjectGuid>{4df0ec1c-0b0a-4014-a8ae-32c423a107d5}</ProjectGuid>
+    <avrdevice>ATmega164A</avrdevice>
+    <avrdeviceseries>none</avrdeviceseries>
+    <OutputType>Executable</OutputType>
+    <Language>C</Language>
+    <OutputFileName>$(MSBuildProjectName)</OutputFileName>
+    <OutputFileExtension>.elf</OutputFileExtension>
+    <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
+    <AssemblyName>PowerSupply</AssemblyName>
+    <Name>PowerSupply</Name>
+    <RootNamespace>PowerSupply</RootNamespace>
+    <ToolchainFlavour>Native</ToolchainFlavour>
+    <KeepTimersRunning>true</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <OverrideVtorValue />
+    <eraseonlaunchrule>0</eraseonlaunchrule>
+    <AsfVersion>3.5.0</AsfVersion>
+    <avrtoolinterface />
+    <avrtool>com.atmel.avrdbg.tool.simulator</avrtool>
+    <com_atmel_avrdbg_tool_simulator>
+      <ToolType>com.atmel.avrdbg.tool.simulator</ToolType>
+      <ToolName>AVR Simulator</ToolName>
+      <ToolNumber>
+      </ToolNumber>
+      <KeepTimersRunning>true</KeepTimersRunning>
+      <OverrideVtor>false</OverrideVtor>
+      <OverrideVtorValue>
+      </OverrideVtorValue>
+      <Channel>
+        <host>127.0.0.1</host>
+        <port>49755</port>
+        <ssl>False</ssl>
+      </Channel>
+    </com_atmel_avrdbg_tool_simulator>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <ToolchainSettings>
+      <AvrGcc>
+        <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+        <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+        <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+        <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+        <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+        <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+        <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
+        <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+        <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+        <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+        <avrgcc.linker.libraries.Libraries>
+          <ListValues>
+            <Value>m</Value>
+          </ListValues>
+        </avrgcc.linker.libraries.Libraries>
+      </AvrGcc>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <ToolchainSettings>
+      <AvrGcc>
+        <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+        <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+        <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+        <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+        <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+        <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+        <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
+        <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+        <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+        <avrgcc.compiler.optimization.DebugLevel>Default (-g2)</avrgcc.compiler.optimization.DebugLevel>
+        <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+        <avrgcc.linker.libraries.Libraries>
+          <ListValues>
+            <Value>m</Value>
+          </ListValues>
+        </avrgcc.linker.libraries.Libraries>
+        <avrgcc.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcc.assembler.debugging.DebugLevel>
+      </AvrGcc>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Defines.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="devices\INA219.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="devices\INA219.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="devices\MAX5541.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="devices\MAX5541.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="PowerSupply.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="serial\Packet.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="serial\packets\ChannelCurrent.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="serial\packets\ChannelCurrent.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="serial\packets\ChannelCurrentLimit.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="serial\packets\ChannelCurrentLimit.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="serial\packets\ChannelStatus.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="serial\packets\ChannelStatus.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="serial\packets\ChannelVoltage.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="serial\packets\ChannelVoltage.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="serial\packets\ChannelVoltageLimit.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="serial\packets\ChannelVoltageLimit.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="serial\packets\Handshake.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="serial\packets\Handshake.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="serial\UART.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="serial\UART.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="spi\SPI.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="spi\SPI.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="twowire\TwoWire.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="twowire\TwoWire.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="util\ByteBuffer.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="util\ByteBuffer.h">
+      <SubType>compile</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="devices" />
+    <Folder Include="serial\packets" />
+    <Folder Include="util" />
+    <Folder Include="serial" />
+    <Folder Include="twowire" />
+    <Folder Include="spi" />
+  </ItemGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
+</Project>
