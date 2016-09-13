@@ -1,0 +1,40 @@
+Added Component: Designator=R100(AXIAL-0.3)
+Added Component: Designator=R101(AXIAL-0.3)
+Added Component: Designator=R102(AXIAL-0.3)
+Added Component: Designator=R103(AXIAL-0.3)
+Added Component: Designator=R104(AXIAL-0.3)
+Added Component: Designator=R105(AXIAL-0.3)
+Added Component: Designator=R106(AXIAL-0.3)
+Added Component: Designator=R107(AXIAL-0.3)
+Added Component: Designator=R109(AXIAL-0.3)
+Added Component: Designator=R110(AXIAL-0.3)
+Added Component: Designator=R111(AXIAL-0.3)
+Added Component: Designator=R112(AXIAL-0.3)
+Added Component: Designator=R113(AXIAL-0.3)
+Added Component: Designator=R114(AXIAL-0.3)
+Added Component: Designator=R115(AXIAL-0.3)
+Added Component: Designator=R116(AXIAL-0.3)
+Added Component: Designator=R117(AXIAL-0.3)
+Added Component: Designator=R119(AXIAL-0.3)
+Added Component: Designator=R120(AXIAL-0.3)
+Added Component: Designator=R121(AXIAL-0.3)
+Added Member To Class: ClassName=Channel One Member=Component R100 Res1
+Added Member To Class: ClassName=Channel One Member=Component R101 Res1
+Added Member To Class: ClassName=Channel One Member=Component R102 Res1
+Added Member To Class: ClassName=Channel One Member=Component R103 Res1
+Added Member To Class: ClassName=Channel One Member=Component R104 Res1
+Added Member To Class: ClassName=Channel One Member=Component R105 Res1
+Added Member To Class: ClassName=Channel One Member=Component R106 Res1
+Added Member To Class: ClassName=Channel One Member=Component R107 Res1
+Added Member To Class: ClassName=Connector Member=Component R109 Res1
+Added Member To Class: ClassName=Connector Member=Component R110 Res1
+Added Member To Class: ClassName=Connector Member=Component R111 Res1
+Added Member To Class: ClassName=Connector Member=Component R112 Res1
+Added Member To Class: ClassName=Connector Member=Component R113 Res1
+Added Member To Class: ClassName=Connector Member=Component R114 Res1
+Added Member To Class: ClassName=Connector Member=Component R115 Res1
+Added Member To Class: ClassName=Connector Member=Component R116 Res1
+Added Member To Class: ClassName=Connector Member=Component R117 Res1
+Added Member To Class: ClassName=Logic Member=Component R119 Res1
+Added Member To Class: ClassName=Logic Member=Component R120 Res1
+Added Member To Class: ClassName=Logic Member=Component R121 Res1

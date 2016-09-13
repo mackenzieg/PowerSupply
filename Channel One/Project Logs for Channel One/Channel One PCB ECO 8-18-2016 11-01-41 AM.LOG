@@ -1,0 +1,6 @@
+Added Component: Designator=USB1(USB)
+Added Pin To Net: NetName=L_5V Pin=USB1-1
+Added Pin To Net: NetName=NetD5_2 Pin=USB1-2
+Added Pin To Net: NetName=NetD4_2 Pin=USB1-3
+Added Pin To Net: NetName=GND Pin=USB1-4
+Added Member To Class: ClassName=Logic Member=Component USB1 UE27AC54100

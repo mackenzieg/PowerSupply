@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=12V Pin=D1-2
+Removed Pin From Net: NetName=12V Pin=K1-3
+Added Component: Designator=VR8(TO220)
+Added Pin To Net: NetName=VCC Pin=VR8-1
+Added Pin To Net: NetName=VCC Pin=VR8-1
+Added Pin To Net: NetName=C_12V Pin=D1-2
+Added Pin To Net: NetName=C_12V Pin=K1-3
+Added Pin To Net: NetName=C_12V Pin=VR8-3
+Added Net: Name=C_12V
+Added Member To Class: ClassName=Channel One Member=Component VR8 NCP7800

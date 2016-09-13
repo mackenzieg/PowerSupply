@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=C2_CLIMIT Pin=P3-24
+Removed Pin From Net: NetName=C2_CLIMIT Pin=P3-25
+Removed Pin From Net: NetName=C2_CLIMIT Pin=P3-26
+Removed Pin From Net: NetName=C2_VCC Pin=P3-27
+Removed Pin From Net: NetName=C2_VCC Pin=P3-27
+Removed Pin From Net: NetName=C2_VCC Pin=P3-27
+Removed Pin From Net: NetName=C2_VCC Pin=P3-27
+Removed Pin From Net: NetName=C2_VCC Pin=P3-27
+Removed Pin From Net: NetName=C2_VCC Pin=P3-27
+Added Pin To Net: NetName=C2_RELAYG Pin=P3-24
+Added Pin To Net: NetName=C2_RELAYG Pin=P3-25
+Added Pin To Net: NetName=C2_RELAYG Pin=P3-26

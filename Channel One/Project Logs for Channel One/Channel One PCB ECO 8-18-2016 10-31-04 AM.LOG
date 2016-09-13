@@ -1,0 +1,19 @@
+Change Component Footprint: Designator=DS1 Old Footprint=RAD-0.1 New Footprint=PIN2
+Added Component: Designator=P1(Power Connector)
+Added Pin To Net: NetName=VCC Pin=P1-1
+Added Pin To Net: NetName=VCC Pin=P1-1
+Added Pin To Net: NetName=VCC Pin=P1-1
+Added Pin To Net: NetName=VCC Pin=P1-1
+Added Pin To Net: NetName=VCC Pin=P1-1
+Added Pin To Net: NetName=VCC Pin=P1-1
+Added Pin To Net: NetName=VCC Pin=P1-1
+Added Pin To Net: NetName=VCC Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Member To Class: ClassName=Channel One Member=Component P1 Power Connector

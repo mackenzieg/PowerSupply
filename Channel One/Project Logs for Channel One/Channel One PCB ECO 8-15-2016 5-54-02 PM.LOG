@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=NetD1_1 Pin=Q1-1
+Added Component: Designator=DS1(PIN2)
+Added Component: Designator=R46(AXIAL-0.3)
+Added Pin To Net: NetName=NetD1_1 Pin=R46-2
+Added Pin To Net: NetName=NetDS1_1 Pin=DS1-1
+Added Pin To Net: NetName=NetDS1_1 Pin=Q1-1
+Added Net: Name=NetDS1_1
+Added Pin To Net: NetName=NetDS1_2 Pin=DS1-2
+Added Pin To Net: NetName=NetDS1_2 Pin=R46-1
+Added Net: Name=NetDS1_2
+Added Member To Class: ClassName=Channel One Member=Component DS1 Lamp
+Added Member To Class: ClassName=Channel One Member=Component R46 Res1

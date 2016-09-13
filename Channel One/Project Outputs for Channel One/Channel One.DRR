@@ -1,0 +1,50 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: Channel One.PcbDoc   8/20/2016  9:10:07 AM
+---------------------------------------------------------------------------
+
+Layer Pair : Signal 1 to Signal 2
+ASCII RoundHoles File : Channel One.TXT
+ASCII RectHoles File : Channel One-RectHoles.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.41mm (16.142mil)       Rectangle      24               144.95 mm (5.71 Inch)
+T2        0.51mm (20.079mil)       Round          24               50.00 mm (1.97 Inch)
+T3        0.6mm (23.622mil)        Round          3                4.00 mm (0.16 Inch)
+T4        0.641mm (25.236mil)      Round          16               41.91 mm (1.65 Inch)
+T5        0.7mm (27.559mil)        Round          87               656.87 mm (25.86 Inch)
+T6        0.7112mm (28mil)         Round          33               303.66 mm (11.95 Inch)
+T7        0.762mm (30mil)          Round          32               170.34 mm (6.71 Inch)
+T8        0.85mm (33.465mil)       Round          90               555.10 mm (21.85 Inch)
+T9        0.9mm (35.433mil)        Round          95               460.69 mm (18.14 Inch)
+T10       1mm (39.37mil)           Round          31               319.38 mm (12.57 Inch)
+T11       1.2mm (47.244mil)        Round          3                7.00 mm (0.28 Inch)
+T12       1.3mm (51.181mil)        Round          4                30.85 mm (1.21 Inch)
+T13       1.41mm (55.512mil)       Round          2                36.04 mm (1.42 Inch)
+T14       2.25mm (88.583mil)       Round          2                21.91 mm (0.86 Inch)
+T15       2.3mm (90.551mil)        Round          4                177.85 mm (7.00 Inch)
+---------------------------------------------------------------------------
+Totals                                            450              2980.55 mm (117.34 Inch)
+
+Two holes at same point : 18
+-----------------------
+3630,137
+1956,151
+2256,451
+3266,496
+2966,796
+3016,1561
+3316,1261
+2276,761
+1976,1061
+2186,55
+3271,147
+3204,308
+3071,2065
+3621,1656
+2606,1541
+1881,3280
+2946,2420
+662,155
+
+Total Processing Time (hh:mm:ss) : 00:00:00

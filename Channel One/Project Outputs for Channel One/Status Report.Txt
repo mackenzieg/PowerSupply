@@ -1,0 +1,29 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [Channel One.PrjPcb]
+   Generated File[Channel One_Copper_Signal_Top.gbr]
+   Generated File[Channel One_Copper_Signal_1.gbr]
+   Generated File[Channel One_Copper_Signal_2.gbr]
+   Generated File[Channel One_Copper_Signal_Bot.gbr]
+   Generated File[Channel One_Pads_Bot.gbr]
+   Generated File[Channel One_Pads_Top.gbr]
+   Generated File[Channel One_Legend_Top.gbr]
+   Generated File[Channel One_Soldermask_Top.gbr]
+   Generated File[Channel One_Paste_Bot.gbr]
+   Generated File[Channel One_Legend_Bot.gbr]
+   Generated File[Channel One_Soldermask_Bot.gbr]
+   Generated File[Channel One_Paste_Top.gbr]
+   Generated File[Channel One_Keep-out.gbr]
+   Generated File[Channel One_Mechanical_13.gbr]
+   Generated File[Channel One_Mechanical_15.gbr]
+   Generated File[Channel One_Mechanical_1.gbr]
+   Generated File[Channel One_Profile.gbr]
+   Generated File[Channel One.RUL]
+   Generated File[Channel One.EXTREP]
+   Generated File[Channel One.REP]
+
+
+Files Generated   : 20
+Documents Printed : 0
+
+Finished Output Generation At 9:19:15 AM On 8/20/2016

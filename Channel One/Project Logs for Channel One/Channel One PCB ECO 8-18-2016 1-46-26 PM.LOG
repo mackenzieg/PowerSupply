@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GPIO8 Pin=U1-21
+Change Component Footprint: Designator=C14 Old Footprint=RAD-0.2 New Footprint=RAD-0.1
+Added Member To Class: ClassName=Channel One Member=Component C22 Cap
+Added Room: Name=Connector

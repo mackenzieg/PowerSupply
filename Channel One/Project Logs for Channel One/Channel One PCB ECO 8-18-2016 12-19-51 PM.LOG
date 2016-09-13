@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=CLIMIT Pin=U1-21
+Removed Pin From Net: NetName=GPIO8 Pin=U1-33
+Added Pin To Net: NetName=GPIO8 Pin=U1-21
+Added Pin To Net: NetName=CLIMIT Pin=U1-33
+Added Room: Name=Connector

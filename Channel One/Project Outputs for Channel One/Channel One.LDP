@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Yvonne\Desktop\Power Supply\Channel One\Channel One.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=channel one.txt|DrillLayers=gtl,g2,g3,gbl
+LayersSetName=Top_Bot_Rect_Holes|DrillFile=channel one-rectholes.txt|DrillLayers=gtl,g2,g3,gbl

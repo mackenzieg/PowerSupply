@@ -1,0 +1,4 @@
+Added Component: Designator=R1(VR3)
+Added Pin To Net: NetName=VIN Pin=R1-1
+Added Pin To Net: NetName=SUPPLY Pin=R1-3
+Added Member To Class: ClassName=Channel One Member=Component R1 3006Y-1-200LF
